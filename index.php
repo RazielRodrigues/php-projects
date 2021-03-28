@@ -1,5 +1,4 @@
 <?php
-/*
 $a = 'Nossa';
 $Nossa = 'Eu';
 $Eu = 'consegui';
@@ -46,16 +45,42 @@ var_dump($variavel);
 const constante = 'constante!';
 echo constante;
 define('ola','ola');
-echo ola;
-*/
-?>
-Ternario:
-<?php
+echo ola .'Ternario:';
 
 // $status = $idade >= 18 ? 'maior de idade ' : 'menor de idade';
-//echo $status;
+// echo $status;
 // () = condição
 // if = ?
 // else = :
- $idade = 19;
+$idade = 19;
 echo $idade !== false ? var_dump(true) : var_dump(false);
+
+
+function somaCompleta(...$numeros){
+    $soma = 0;
+    foreach($numeros as $n){
+        $soma += $n;
+    }
+    return $soma;
+}
+
+// Somando os numeros em serie
+// print_r(somaCompleta(1,2,3));
+
+// passa os valores do array
+// $arr = [1,2,7];
+// print_r(somaCompleta(...$arr));
+
+
+// passa o array: ero
+// $arr = [8,2,1];
+// print_r(somaCompleta($arr));
+
+function membros($titular, ...$dependentes){
+    echo "titular: $titular <hr>";
+    if($dependentes){
+        foreach($dependentes as $d) echo "dependente $d <br>";
+    }
+}
+
+membros('Raziel', 'Ana', 'igor');
