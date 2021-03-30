@@ -1,4 +1,5 @@
 <?php
+echo "<a href='page1.php'>page1</a>";
 $a = 'Nossa';
 $Nossa = 'Eu';
 $Eu = 'consegui';
@@ -84,3 +85,4 @@ function membros($titular, ...$dependentes){
 }
 
 membros('Raziel', 'Ana', 'igor');
+
