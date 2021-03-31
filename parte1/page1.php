@@ -73,10 +73,25 @@ echo somaRecursivaAte(10);
 
 
 echo 'DESAFIO RECURSÃO <BR> <BR>';
+$arr = [1,2,[3,4,5], 6,[7,[8,9]], 10];
+// var_dump($arr);
 
+function buscaArr(array $arr, int $i){
+    //condição
+    if(in_array($i, $arr, true)){
+        echo $i;
+
+        if($i < 10){
+            $i++;
+            return buscaArr($arr, $i);
+        }
+
+    }
+}
+buscaArr($arr, 1);
 /*
 
-$arr = [];
+$arr = [1,2,[3,4,5], 6,[7,[8,9]], 10];
 
 >1
 >2
@@ -94,3 +109,62 @@ dentro do array e fazer representar os niveis com simboloo
 
 */
 
+
+/*
+! geralmente é usado quando quer quebrar as funções em mais pedaçoes deixando dessa forma
+! ex: usar os resultados do parametro da funcao x na funcao y assim voce consegue usar um mesmo parametro para 
+! resolver outra coisa com a outra função. 
+
+*/
+function soma($a){
+    //alogiritmo 30seg
+    //! para usar o parametro a é necessario usar a palavra use e especificar o parametro dentro dos paranteses
+    return function($b) use ($a) {
+        return $a + $b;
+    };
+}
+
+//! chamando a função e especificando os parametros a primeira chamada () e a segunda ()
+//! é equivalente ao parametro $b da segunda função ou seja a função de retorno.
+
+echo '<hr/>'.soma(13)(3);
+
+$doisMais = soma(2);
+
+echo $doisMais(10);
+
+
+
+
+
+
+
+
+
+echo '<hr/>';
+echo '<hr/>';
+
+$notas = [1.2, 9.8, 2.4];
+$notasFinais1 = [];
+
+foreach($notas as $nota){
+    $notasFinais1[] = round($nota);
+}
+print_r($notasFinais1);
+
+// $notasFinais2 = array_map(round, $notas);
+// print_r($notasFinais2);
+
+
+$aprovados = [];
+
+foreach($notas as $nota){
+    if($nota >= 7){
+        $aprovados = $nota;
+    }
+}
+
+// function aprovados($nota){
+//     return $nota >= 7;
+// }
+// $fil = array_filter($notas, aprovados($nota));
