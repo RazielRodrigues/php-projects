@@ -5,7 +5,7 @@ onde os softwares interpretao a vida real.
 
 # Conceitos
 
-### Classe
+## Classe
 
     - uma classe define um tipo dentro da linguagem, é um molde.
     - ex: Cliente é uma classe
@@ -14,7 +14,7 @@ onde os softwares interpretao a vida real.
         - ex: cada pessoa tem uma idade e nome
         - ex: imprimir nome da pessoa e a idade
 
-### Objeto
+## Objeto
 
     - um objeto é a instancia de uma classe
     - para instanciar um objeto voce usa a palavra $variavel = new NomeDaClasse()
@@ -23,7 +23,7 @@ onde os softwares interpretao a vida real.
     objeto
 
 
-#### Definindo uma classe. atributos, metodos e invocação
+#### Definindo uma classe: atributos, metodos e invocação
 
     class Cliente {
 
@@ -51,3 +51,19 @@ onde os softwares interpretao a vida real.
     echo $c1->apresentar();
 
 <hr>
+
+#### Metodos classe: constructor e destructor
+
+    - function __contruct($a,$b,...){}
+        - chamada imediatamente com a nova instancia
+        - caso o metodo constructor precise de parametros, 
+        esses parametrros, deverão ser passados junto com o nee
+        ex: $borracheiro = new Pessoa('Alexandre', 20);
+
+    - function __destruct(){}
+        - é invocada assim que o objeto é destruido
+        ex: unset($borracheiro) ou $borracheiro = null
+
+<hr>
+
+#### ....
