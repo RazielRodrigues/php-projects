@@ -31,7 +31,14 @@
 
 ## Herança
 
-    - 
+    - a herança é baseado em hierarquias é a pergunta é sempre "é um?"
+
+    <img src="images/heranca.png">
+
+    - nem sempre hierarquia esta ligado com Herança
+
+    <img src="images/heranca2.png">
+
 
 
 #### Definindo uma classe: atributos, metodos e invocação
