@@ -51,7 +51,6 @@
 <h1>Construtor e destrutor</h1>
 
 <?php
-
 class  Pessoa{
 
     public $nome;
@@ -80,11 +79,9 @@ class  Pessoa{
     }
 
 }
-
 $borracheiro = new Pessoa("Carlos oliveira", 20);
 echo $borracheiro->apresentar();
 unset($borracheiro);
-
 ?>
 
 <hr>
