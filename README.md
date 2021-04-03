@@ -196,3 +196,7 @@
     proprio codigo de que não é possivel alterar, dai causa a pergunta:
     "Sera que é melhro alterar o metodo ou a classe original ?"
     - Evita bastante complicação em trechos de codigo que não devem ser alterados.
+
+### Traits
+
+...
