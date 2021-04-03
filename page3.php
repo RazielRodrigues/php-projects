@@ -11,6 +11,8 @@ Na logica de interface é possivel
 
 A interface é uma forma de definir como a classe deve ser moldada.
 
+Uma classe que respeita a sua interface pode ser chamada de classe concreta.
+
 */
 interface Animal{
     function respirar();
