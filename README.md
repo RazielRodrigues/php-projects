@@ -16,7 +16,9 @@
 
     - um objeto é a instancia de uma classe
     - para instanciar um objeto se usa a palavra "new"
-    - feito isso voce tem uma copia de tudo que tem dentro da Classe de tal forma que seja possivel alterar e usar os atributos e metodos da classe atraves desse objeto a traves de "->"
+    - feito isso voce tem uma copia de tudo que tem dentro da Classe de tal forma
+    que seja possivel alterar e usar os atributos e metodos da classe atraves desse
+    objeto a traves de "->"
 
 ## Encapsulamento
     
@@ -30,8 +32,8 @@
 ## Herança
 
     - a herança é baseado em hierarquias é a pergunta é sempre "é um?"
-    - a ideia é voce sempre ter uma classe com diversos metodos e atributos
-    a partir dessa classe voce ir criando outras classes que tenham isso em comum
+    - a ideia é pensar em diversos metodos e atributos que possam ser comuns
+    entre uma hierarquia de objetos, pensando sempre em como eles vão se relacionar.
     - por exemplo eu poderia ter essa classe
 
     Class Animal{
@@ -65,11 +67,11 @@
     - dessa forma anfibio pode herdar de animal mas animal nao herda de anfibio
     pois nem todos os animais sao aquaticos.
 
-    <img src="images/heranca.png">
+<img src="images/heranca.png">
 
     - nem sempre hierarquia esta ligado com Herança
 
-    <img src="images/heranca2.png">
+<img src="images/heranca2.png">
 
     - ...
 
