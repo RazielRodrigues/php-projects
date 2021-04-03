@@ -94,7 +94,7 @@
             assim pode usar como quiser o parametro dentro da função instanciando diversos objetos.
 
 
-#### Definindo uma classe: atributos, metodos e invocação
+### Definindo uma classe: atributos, metodos e invocação
 
     class Cliente {
 
@@ -123,7 +123,7 @@
 
 <hr>
 
-#### Metodos classe: constructor e destructor
+### Metodos classe: constructor e destructor
 
     - function __contruct($a,$b,...){}
         - chamada imediatamente com a nova instancia
@@ -170,19 +170,19 @@
 
 <hr>
 
-#### Herança
+### Herança
 
 ...
 
 
-#### Static
+### Static
 
 ...
 
-#### interface
+### interface
 
 ...
 
-#### Classes abstratas
+### Classes abstratas
 
 ...
