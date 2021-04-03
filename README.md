@@ -69,11 +69,11 @@
 
 <img src="images/heranca.png">
 
-    - nem sempre hierarquia esta ligado com Herança
+<small>Uma questão de herança bem logica aqui baseado em arvore, esse deve ser o pensamento.</small>
 
 <img src="images/heranca2.png">
 
-    - ...
+<small>Nem sempre hierarquia esta ligado com Herança</small>
 
 ## Polimorfismo
 
