@@ -32,6 +32,40 @@
 ## Herança
 
     - a herança é baseado em hierarquias é a pergunta é sempre "é um?"
+    - a ideia é voce sempre ter uma classe com diversos metodos e atributos
+    a partir dessa classe voce ir criando outras classes que tenham isso em comum
+    - por exemplo eu poderia ter essa classe
+
+    Class Animal{
+
+        public $respirar;
+        public $idade;
+
+        public function respirar(): int{
+            if($this->idade < 120>){
+                $this->resipirar++;
+                return $respirar;
+            }
+        }
+
+    }
+    
+    depois uma classe:
+
+    Class Anfibio{
+        public $aquatico;
+
+        protected function check(): string
+        {
+            if($this->aquatico){
+                return 'Anfibio';
+            }
+        }
+
+    }
+
+    - dessa forma anfibio pode herdar de animal mas animal nao herda de anfibio
+    pois nem todos os animais sao aquaticos.
 
     <img src="images/heranca.png">
 
@@ -39,6 +73,25 @@
 
     <img src="images/heranca2.png">
 
+    - ...
+
+## Polimorfismo
+
+    - php nao tem sobrecarga de metodo (metodos com o mesmo nome)
+        - alternativa usar os parametros do construtor com ...
+            - function __construct($a, ...) {}
+    - php usa tipos dinamicos e nao estaticos
+    - polimorfismo é quando voce usa uma superclasse como "Animal"
+    em varios objetos, em linguagens tipadas é passado direto na tipagem
+    da variavel, em php é passado por uma função.
+        - java:
+            - int x = 1; // tipagem
+            - Animal c = new Anfibio(); // instanciando um objeto anfibio que vai herdar tudo de Animal
+            - c = new Mamifero(); // Mudando pra mamifero pq mamifero também é animal
+        - php:
+            - $x = 1 ?? 'dinamico'; // tipagem
+            - function analisar(Animal $bichoEstranho) {...} // passando o parametro como função, 
+            assim pode usar como quiser o parametro dentro da função instanciando diversos objetos.
 
 
 #### Definindo uma classe: atributos, metodos e invocação
