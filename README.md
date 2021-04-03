@@ -4,7 +4,7 @@
 
 ## Classe
 
-    - uma classe define é um molde.
+    - uma classe é um molde.
         - ex: Cliente é uma classe
     - uma classe contém atributos e metodos
         - atributo é tudo aquilo que define a classe
@@ -15,10 +15,8 @@
 ## Objeto
 
     - um objeto é a instancia de uma classe
-    - para instanciar um objeto voce usa a palavra $variavel = "new" NomeDaClasse()
-    - feito isso voce tem uma copia de tudo que tem dentro da Classe de tal forma
-    que seja possivel alterar e usar os atributos e metodos da classe atraves desse
-    objeto a traves de $variavel->metodo();
+    - para instanciar um objeto se usa a palavra "new"
+    - feito isso voce tem uma copia de tudo que tem dentro da Classe de tal forma que seja possivel alterar e usar os atributos e metodos da classe atraves desse objeto a traves de "->"
 
 ## Encapsulamento
     
