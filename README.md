@@ -186,3 +186,13 @@
 ### Classes abstratas
 
 ...
+
+### Modificador Final
+
+    - Uma classe/metodo com o modificador final nao pode ser herdada/alterado
+    serve principalmente para evitar que metodos ou classes sejam alteradas
+    por regras de negocios.
+    - Toda vez que alguem tentar alterar esse membro com final será notificado pelo
+    proprio codigo de que não é possivel alterar, dai causa a pergunta:
+    "Sera que é melhro alterar o metodo ou a classe original ?"
+    - Evita bastante complicação em trechos de codigo que não devem ser alterados.
