@@ -14,9 +14,14 @@
 
 */
 trait validacao{
+
     public $a = 'Valor A';
     public function validarString($str){
         return isset($str) && $str !== '';
+    }
+
+    public function myNull($p){
+        return empty($p);
     }
 
 }
@@ -29,11 +34,19 @@ trait validacaoMelhor{
         return isset($str) && trim($str);
     }
 
+    public function myNull($p){
+        return empty($p);
+    }
+
 }
 
 class Usuario {
 
-    use validacao, validacaoMelhor;
+    use validacao, validacaoMelhor{
+        validacaoMelhor::myNull insteadof validacao;
+        // validacao::myNull insteadof validacaoMelhor;
+        validacao::myNull as myNull2;
+    }
 
     public function imprimirC(){
         return $this->c;
@@ -49,3 +62,5 @@ var_dump($usuario->validarString(' '));
 var_dump($usuario->validarStringMelhor(' '));
 echo $usuario->a, '<hr>', $usuario->b;
 echo '<hr>',$usuario->imprimirC();
+$s = '';
+var_dump($usuario->myNull($s));
