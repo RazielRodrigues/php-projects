@@ -70,3 +70,4 @@ $pessoa = new Pessoa('Raziel', 22);
 //? teste __set: $pessoa->nomeCompleto = "Raziel Rodrigues";
 //? teste 1 __call: $pessoa->exec();
 //? teste 2 __call: $pessoa->exec(true, 123, 'abc', ['teste',234,false]); //? Passando com parametros
+// ! metodos magicos não uma coisa padrão então deve pensar bem antes de usar
