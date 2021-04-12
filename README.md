@@ -200,3 +200,8 @@
 ### Traits
 
 ...
+
+### Metodos magicos
+
+...
+
