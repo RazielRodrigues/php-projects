@@ -20,7 +20,7 @@ class A{
         echo "estatica = ".self::$static."<br>";
     }
 
-    //! Dentro de uma função static so se consegue acessar membros esaticos
+    //! Dentro de uma função static so se consegue acessar membros estaticos
     public static function mostrarStaticA(){
         // echo "nao estatica = {$this->naoStatic}<br>";
         echo "estatica = ".self::$static."<br>";
