@@ -1,4 +1,4 @@
-<h1>Traits #01</h1>
+<h1>Traits</h1>
 <?php
 
 /*
