@@ -1,0 +1,15 @@
+<?php 
+
+//Informações do server
+$servidor='localhost';
+$user = 'root';
+$senha = '';
+$db = 'studiesdb';
+
+//Criando conexão com o banco de dados
+$conexao = new mysqli($servidor, $user, $senha, $db);
+
+//Checando a conexão
+if (!$conexao) {
+		die("<h1>Ops! erro de conexao" . $conexao->connect_error . "</h1>");
+}
