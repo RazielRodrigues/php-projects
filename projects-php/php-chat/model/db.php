@@ -1,11 +1,11 @@
 <?php
 //TODO: CONSTRUCT A CLASS
-$servername = "localhost";
-$username = "root";
-$password = "";
+$servername = "us-cdbr-east-05.cleardb.net";
+$username = "b0817db7aec7bc";
+$password = "5ad28eb6";
 
 try {
-  $chatDB = new PDO("mysql:host=$servername;dbname=studiesdb", $username, $password);
+  $chatDB = new PDO("mysql:host=$servername;dbname=heroku_6e46b6c258abfc4", $username, $password);
   // set the PDO error mode to exception
   $chatDB->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch(PDOException $e) {
