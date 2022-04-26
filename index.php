@@ -15,6 +15,7 @@
     <a href="./projects-php/php-form/index.php">FORM</a>
     <a href="./projects-php/php-oo/index.php">oRIENTED oBJECT 1</a>
     <a href="./projects-php/php-oo-2/index.php">oRIENTED oBJECT 2</a>
+    <a href="./projects-php/php-chat/index.php">PHP CHAT</a>
 
     </center>
     <hr>

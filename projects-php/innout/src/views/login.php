@@ -13,7 +13,7 @@
 
             <div class="form-group">
                 <label for="email">E-mail</label>
-                <input value="<?= ($email ?? '') ?>" type="email" name="email" id="email" class="form-control <?= (!empty($errors['email'])) ? 'is-invalid' : ''  ?> " placeholder="Informe o e-mail" autofocus>
+                <input value="<?= ($email ?? 'admin@cod3r.com.br') ?>" type="email" name="email" id="email" class="form-control <?= (!empty($errors['email'])) ? 'is-invalid' : ''  ?> " placeholder="Informe o e-mail" autofocus>
                 <div class="invalid-feedback">
                     <?= ($errors['email'] ?? '') ?>
                 </div>
@@ -21,9 +21,9 @@
             <div class="form-group">
                 <label for="password">Senha</label>
                 <input type="password" name="password" id="password" class="form-control <?= (!empty($errors['password'])) ? 'is-invalid' : ''  ?> " "
-                        placeholder=" Informe a senha">
+                        placeholder=" Informe a senha" value="a">
                 <div class="invalid-feedback">
-                    <?= ($errors['password'] ?? '') ?>
+                    <?= ($errors['password'] ?? 'a') ?>
                 </div>
             </div>
         </div>
