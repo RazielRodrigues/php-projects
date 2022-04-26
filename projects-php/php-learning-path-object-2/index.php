@@ -175,3 +175,12 @@ var_dump($user);
 
 var_dump($user);
 ?>
+
+<center>
+    <h1>OUTRAS PAGINAS:</h1>
+    <?php 
+        for ($i=0; $i < 9; $i++) { 
+            echo "<a href='page{$i}.php'>PAGINA DE EXERCICIO {$i}</a>", '<hr>'; ;
+        }
+    ?>
+</center>

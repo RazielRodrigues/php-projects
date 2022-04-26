@@ -1,0 +1,48 @@
+body{
+    font-family: 'Source Code Pro', monospace;
+	font-size: 20px;
+	background-color: white;
+
+}
+
+header{
+	height: 120px;
+	background-color: whitesmoke;
+	color: black;
+}
+
+
+footer{
+	background-color: whitesmoke;
+	color: black;
+	text-align: center;
+	padding: 30px;
+}
+
+.container{
+	margin: auto; width: auto;
+}
+
+#conteudo{
+	background-color: white;
+	padding: 140px;
+	text-align: left;
+}
+
+#menu{
+	float: right;
+	text-decoration: none;
+	margin-top: 2.5rem;
+	padding-right: 10rem;
+}
+
+#menu a{
+	text-decoration: none;
+	padding: 2rem;
+
+}
+
+#menu a:hover{
+	background-color: white;
+	border-radius: 100px;
+}
