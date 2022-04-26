@@ -602,3 +602,4 @@ Utilização do select:
 }
 
 Após passar para essa estrutura fica facil para transformar tudo em OO.
+
