@@ -1,7 +1,7 @@
 <?php
 //TODO: CONSTRUCT A CLASS
 $servername = "us-cdbr-east-05.cleardb.net";
-$username = "b0817db7aec7bc";
+$username = "bfff28e7229e4b";
 $password = "bef6c00e";
 
 try {
