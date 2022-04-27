@@ -1,10 +1,10 @@
 <?php 
 
 //Informações do server
-$servidor='localhost';
-$user = 'root';
-$senha = '';
-$db = 'studiesdb';
+$servidor='us-cdbr-east-05.cleardb.net';
+$user = 'bfff28e7229e4b';
+$senha = 'bef6c00e';
+$db = 'heroku_201a8405690d62f';
 
 //Criando conexão com o banco de dados
 $conexao = new mysqli($servidor, $user, $senha, $db);

@@ -2,9 +2,9 @@
 
 class Database{
  
-    protected $host = 'mysql:host=localhost;dbname=search';
-    protected $user = 'root';
-    protected $password = '';
+    protected $host = 'mysql:host=us-cdbr-east-05.cleardb.net;dbname=heroku_201a8405690d62f';
+    protected $user = 'bfff28e7229e4b';
+    protected $password = 'bef6c00e';
 
     public $db;
     

@@ -1,9 +1,9 @@
 <?php 
 
-$servidor='localhost';
-$user = 'root';
-$senha = '';
-$db = 'studiesdb';
+$servidor='us-cdbr-east-05.cleardb.net';
+$user = 'bfff28e7229e4b';
+$senha = 'bef6c00e';
+$db = 'heroku_201a8405690d62f';
 
 $conexao = mysqli_connect($servidor,$user,$senha,$db);
 
