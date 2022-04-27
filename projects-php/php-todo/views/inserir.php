@@ -17,7 +17,7 @@
 
 					if ($resultadoSelect->num_rows > 0) {
 						while ($row = $resultadoSelect->fetch_assoc()) {
-						echo '<option value="'.$row['ID_ANOTACAO'].'">'.$row['ID_ANOTACAO'].'</option>';
+						echo '<option value="'.$row['ID_ANOTACAO'].'">'.$row['CONTEUDO'].'</option>';
 						}
 					}else{
 						echo "<option>Sem resultados</option>";
