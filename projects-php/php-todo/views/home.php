@@ -9,13 +9,13 @@
         <tbody>
             <tr>
 				<?php 
-					$querySelect = "SELECT * FROM anotacao";
+					$querySelect = "SELECT * FROM ANOTACAO";
 					$resultadoSelect = $conexao->query($querySelect);
 					if ($resultadoSelect->num_rows > 0) {
 						while ($row = $resultadoSelect->fetch_assoc()) {
 							echo "<tr>";
-							echo "<th>".$row["id_anotacao"]."</th>";
-							echo "<td>".$row["conteudo"]."</td>";
+							echo "<th>".$row["ID_ANOTACAO"]."</th>";
+							echo "<td>".$row["COONTEUDO"]."</td>";
 							echo "</tr>";
 						}
 					}else{

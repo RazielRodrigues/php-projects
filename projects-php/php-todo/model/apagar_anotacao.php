@@ -4,7 +4,7 @@ include 'database.php';
 
 $dado = $_POST['dado_deletar'];
 
-$queryDelete = "DELETE FROM anotacao WHERE id_anotacao = $dado";
+$queryDelete = "DELETE FROM ANOTACAO WHERE ID_ANOTACAO = $dado";
 
 if (mysqli_query($conexao,$queryDelete)) {
 	echo "Deletado com sucesso";
