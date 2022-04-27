@@ -31,7 +31,7 @@
     <div class="container">
 
 
-        <p><img src="UC-01a02f43-a465-4d80-9d6b-904360fa9ec9.jpg"></p>
+        <p><img class="img-fluid" src="UC-01a02f43-a465-4d80-9d6b-904360fa9ec9.jpg"></p>
         <p>&quot;A orientação a objetos é um paradigma de programação onde os softwares interpretao a vida real.&quot;</p>
         <h1 id="conceitos">Conceitos</h1>
         <h2 id="classe">Classe</h2>
@@ -102,9 +102,9 @@ depois uma classe:
 - dessa forma anfibio pode herdar de animal mas animal nao herda de anfibio
 pois nem todos os animais sao aquaticos.
 </code></pre>
-        <p><img src="images/heranca.png"></p>
+        <p><img class="img-fluid" src="images/heranca.png"></p>
         <p><small>Uma questão de herança bem logica aqui baseado em arvore, esse deve ser o pensamento.</small></p>
-        <p><img src="images/heranca2.png"></p>
+        <p><img class="img-fluid" src="images/heranca2.png"></p>
         <p><small>Nem sempre hierarquia esta ligado com Herança</small></p>
         <h2 id="polimorfismo">Polimorfismo</h2>
         <pre><code>-<span class="ruby"> php nao tem sobrecarga de metodo (metodos com o mesmo nome)
