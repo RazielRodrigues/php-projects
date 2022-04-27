@@ -20,10 +20,6 @@
             <a class="navbar-brand" href="./projects-php/php-oo-2/index.php">PHP ORIENTED OBJECT PT.2</a>
         </div>
     </nav>
-
-    <div class="container">
-        <img src="background.png" class="img-fluid" alt="...">
-    </div>
     <!-- <a href="./projects-php/php-search/index.php">PHP SEARCH ENGINE (UNDER CONSTRUCTION)</a> -->
     <!-- <h1><a href="./projects-php/innout/public/index.php">IN N OUT</a></h1> -->
     <!-- <a href="./projects-php/php-crud/index.php">CRUD</a> -->
@@ -31,7 +27,6 @@
     <div class="container">
 
 
-        <p><img class="img-fluid" src="UC-01a02f43-a465-4d80-9d6b-904360fa9ec9.jpg"></p>
         <p>&quot;A orientação a objetos é um paradigma de programação onde os softwares interpretao a vida real.&quot;</p>
         <h1 id="conceitos">Conceitos</h1>
         <h2 id="classe">Classe</h2>
@@ -562,6 +557,8 @@ $select = <span class="hljs-string">'select * from produtos'</span>;
         <p>}</p>
         <p>Após passar para essa estrutura fica facil para transformar tudo em OO.</p>
 
+
+        <p><img class="img-fluid" src="UC-01a02f43-a465-4d80-9d6b-904360fa9ec9.jpg"></p>
 
     </div>
 
