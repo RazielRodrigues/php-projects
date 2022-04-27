@@ -24,13 +24,17 @@
     <!-- <h2><a href="./projects-php/innout/public/index.php">IN N OUT</a></h2> -->
     <!-- <a href="./projects-php/php-crud/index.php">CRUD</a> -->
 
+    <div class="container mt-5">
+        <img class="img-fluid" src="background.png" alt="" srcset="">
+    </div>
+
     <div class="container m-5">
         <p class="lead">
         PHP (um acrônimo recursivo para "PHP: Hypertext Preprocessor", originalmente Personal Home Page) é uma linguagem interpretada livre, usada originalmente apenas para o desenvolvimento de aplicações presentes e atuantes no lado do servidor, capazes de gerar conteúdo dinâmico na World Wide Web.[3] Figura entre as primeiras linguagens passíveis de inserção em documentos HTML, dispensando em muitos casos o uso de arquivos externos para eventuais processamentos de dados.
         </p>
     </div>
 
-    <div class="container">
+    <div class="container shadow-lg p-3 mb-5 bg-body rounded">
 
 
         <p>&quot;A orientação a objetos é um paradigma de programação onde os softwares interpretao a vida real.&quot;</p>
