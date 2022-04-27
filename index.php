@@ -25,7 +25,7 @@
     <!-- <a href="./projects-php/php-crud/index.php">CRUD</a> -->
 
     <div class="container mt-5">
-        <img class="img-fluid" src="background.png" alt="" srcset="">
+        <img class="img-fluid w-50" src="background.png" alt="" srcset="">
     </div>
 
     <div class="container m-5">
@@ -35,7 +35,6 @@
     </div>
 
     <div class="container shadow-lg p-3 mb-5 bg-body rounded">
-        <p><img src="UC-01a02f43-a465-4d80-9d6b-904360fa9ec9.jpg"></p>
         <p>&quot;Object-orientation is a programming paradigm where software interprets real life.&quot;</p>
         <h1 id="concepts">Concepts</h1>
         <h2 id="class">Class</h2>
@@ -184,7 +183,7 @@ $c1-&gt;age = <span class="hljs-number">22</span>;
 
     }
 
-    <p><img class="img-fluid" src="UC-01a02f43-a465-4d80-9d6b-904360fa9ec9.jpg"></p>
+    <p><img class="img-fluid w-50" src="UC-01a02f43-a465-4d80-9d6b-904360fa9ec9.jpg"></p>
 </code></pre>
 
     </div>
