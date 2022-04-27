@@ -5,7 +5,7 @@ $username = "bfff28e7229e4b";
 $password = "bef6c00e";
 
 try {
-  $chatDB = new PDO("mysql:host=$servername;dbname=heroku_6e46b6c258abfc4", $username, $password);
+  $chatDB = new PDO("mysql:host=$servername;dbname=heroku_201a8405690d62f", $username, $password);
   // set the PDO error mode to exception
   $chatDB->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch(PDOException $e) {
