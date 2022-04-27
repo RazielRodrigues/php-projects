@@ -15,7 +15,7 @@
 						while ($row = $resultadoSelect->fetch_assoc()) {
 							echo "<tr>";
 							echo "<th>".$row["ID_ANOTACAO"]."</th>";
-							echo "<td>".$row["COONTEUDO"]."</td>";
+							echo "<td>".$row["CONTEUDO"]."</td>";
 							echo "</tr>";
 						}
 					}else{
