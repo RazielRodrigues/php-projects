@@ -21,14 +21,20 @@
         </div>
     </nav>
     <!-- <a href="./projects-php/php-search/index.php">PHP SEARCH ENGINE (UNDER CONSTRUCTION)</a> -->
-    <!-- <h1><a href="./projects-php/innout/public/index.php">IN N OUT</a></h1> -->
+    <!-- <h2><a href="./projects-php/innout/public/index.php">IN N OUT</a></h2> -->
     <!-- <a href="./projects-php/php-crud/index.php">CRUD</a> -->
+
+    <div class="container m-5">
+        <p class="lead">
+        PHP (um acrônimo recursivo para "PHP: Hypertext Preprocessor", originalmente Personal Home Page) é uma linguagem interpretada livre, usada originalmente apenas para o desenvolvimento de aplicações presentes e atuantes no lado do servidor, capazes de gerar conteúdo dinâmico na World Wide Web.[3] Figura entre as primeiras linguagens passíveis de inserção em documentos HTML, dispensando em muitos casos o uso de arquivos externos para eventuais processamentos de dados.
+        </p>
+    </div>
 
     <div class="container">
 
 
         <p>&quot;A orientação a objetos é um paradigma de programação onde os softwares interpretao a vida real.&quot;</p>
-        <h1 id="conceitos">Conceitos</h1>
+        <h2 id="conceitos">Conceitos de orietanção a objetos em PHP</h2>
         <h2 id="classe">Classe</h2>
         <pre><code>-<span class="ruby"> uma classe é um molde.
 </span>    -<span class="ruby"> <span class="hljs-symbol">ex:</span> Cliente é uma classe
@@ -350,7 +356,7 @@ proprio codigo <span class="hljs-keyword">de</span> <span class="hljs-keyword">q
     $<span class="hljs-keyword">this</span>-&gt;peso += $comida-&gt;peso;
 }
 </code></pre>
-        <h1 id="php-orienta-o-a-objetos">PHP: Orientação a objetos</h1>
+        <h2 id="php-orienta-o-a-objetos">PHP: Orientação a objetos</h2>
         <p>Orientação a objetos se trata de simular a vida real em programação, tratando literalmente como um objeto o código.</p>
         <h2 id="classes-modificadores-e-fun-es">Classes, modificadores e funções</h2>
         <p>A palavra reservada &quot;class&quot; no PHP cria uma classe, um objeto é uma instancia de uma classe, uma classe possui atributos e por sua vez metodos que definem o que de fato aquela classe faz e possui. Então um objeto serve para poder definir e usar os metodos que vem da classe por exemplo: Pessoa é uma classe, toda pessoa tem a propriedade nome e a função de respirar, entretanto nem toda pessoa tem o mesmo nome e nem toda pessoa respira na mesma velocidade essas &quot;particularidades&quot; são definidas no objeto.</p>
@@ -549,7 +555,7 @@ $prepare-&gt;execute();
 
 $select = <span class="hljs-string">'select * from produtos'</span>;
 
-<span class="hljs-keyword">echo</span> <span class="hljs-string">"&lt;h1&gt; listagem produtos: &lt;/h1&gt;&lt;hr&gt;"</span>;
+<span class="hljs-keyword">echo</span> <span class="hljs-string">"&lt;h2&gt; listagem produtos: &lt;/h2&gt;&lt;hr&gt;"</span>;
 
 <span class="hljs-keyword">foreach</span> ($conexaoDB-&gt;query($select) <span class="hljs-keyword">as</span> $key =&gt; $value) {
     <span class="hljs-keyword">echo</span> <span class="hljs-string">'&lt;br&gt;'</span>.<span class="hljs-string">'ID:'</span>. $value[<span class="hljs-string">'id'</span>].<span class="hljs-string">'&lt;br&gt;'</span>.<span class="hljs-string">'Descricao:'</span>.$value[<span class="hljs-string">'descricao'</span>].<span class="hljs-string">'&lt;hr&gt;'</span>;
