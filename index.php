@@ -25,18 +25,20 @@
     <!-- <a href="./projects-php/php-crud/index.php">CRUD</a> -->
 
     <div class="container mt-5">
-        <img class="img-fluid w-50" src="background.png" alt="" srcset="">
-    </div>
-
-    <div class="container m-5">
-        <p class="lead">
-            PHP (a recursive acronym for "PH Preprocessor", P Home Page) is an original interpreted language, it can only be used on the server side, it can just be content that exists on the World Wide Web. [3] Figures enter as original document programming languages, dispensing in many cases of using external files for processing capable of data processing.
-        </p>
+        <div class="row">
+            <div class="col-md-6">
+                <img class="img-fluid w-50" src="background.png" alt="" srcset="">  
+            </div>
+            <div class="col-md-6">
+                <p class="lead">
+                        PHP (a recursive acronym for "PH Preprocessor", P Home Page) is an original interpreted language, it can only be used on the server side, it can just be content that exists on the World Wide Web. [3] Figures enter as original document programming languages, dispensing in many cases of using external files for processing capable of data processing.
+                </p>
+            </div>
+        </div>
     </div>
 
     <div class="container shadow-lg p-3 mb-5 bg-body rounded">
-        <p>&quot;Object-orientation is a programming paradigm where software interprets real life.&quot;</p>
-        <h1 id="concepts">Concepts</h1>
+        <h2 id="concepts">Concepts</h2>
         <h2 id="class">Class</h2>
         <pre><code>-<span class="ruby"> a <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">is</span> <span class="hljs-title">a</span> <span class="hljs-title">template</span>.</span>
 </span>    -<span class="ruby"> <span class="hljs-symbol">ex:</span> Customer is a <span class="hljs-class"><span class="hljs-keyword">class</span></span>
