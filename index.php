@@ -107,9 +107,9 @@ then a <span class="hljs-class"><span class="hljs-keyword">class</span>:
 - so an amphibian can inherit from an animal but an animal does not inherit from an amphibian
 because not all animals are aquatic.
 </code></pre>
-        <p><img src="images/heranca.png"></p>
+        <p><img class="img-fluid" src="images/heranca.png"></p>
         <p><small>A very logical inheritance question here based on tree, that should be the thought.</small></p>
-        <p><img src="images/heranca2.png"></p>
+        <p><img class="img-fluid" src="images/heranca2.png"></p>
         <p><small>Hierarchy is not always linked with Inheritance</small></p>
         <h2 id="polymorphism">Polymorphism</h2>
         <pre><code>- php has no method overhead (methods <span class="hljs-keyword">with</span> <span class="hljs-keyword">the</span> same name)
