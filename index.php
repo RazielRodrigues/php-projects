@@ -24,10 +24,10 @@
     <!-- <h2><a href="./projects-php/innout/public/index.php">IN N OUT</a></h2> -->
     <!-- <a href="./projects-php/php-crud/index.php">CRUD</a> -->
 
-    <div class="container mt-5">
+    <div class="container m-5">
         <div class="row">
             <div class="col-md-6">
-                <img class="img-fluid w-50" src="background.png" alt="" srcset="">  
+                <img class="img-fluid" src="background.png" alt="" srcset="">  
             </div>
             <div class="col-md-6">
                 <p class="lead">
