@@ -11,13 +11,14 @@
     <h1>CONCEITOS PHP</h1>
     <h1>    <a href="./projects-php/innout/public/index.php">IN N OUT</a>
 </h1>
-    <a href="./projects-php/php-crud/index.php">CRUD</a>
-    <a href="./projects-php/php-form/index.php">FORM</a>
-    <a href="./projects-php/php-oo/index.php">oRIENTED oBJECT 1</a>
-    <a href="./projects-php/php-oo-2/index.php">oRIENTED oBJECT 2</a>
+    <!-- <a href="./projects-php/php-crud/index.php">CRUD</a> -->
+    <a href="./projects-php/php-form/index.php">PHP FORM</a>
     <a href="./projects-php/php-chat/index.php">PHP CHAT</a>
-    <a href="./projects-php/php-search/index.php">PHP SEARCH ENGINE (UNDER CONSTRUCTION)</a>
     <a href="./projects-php/php-todo/index.php">PHP TODO</a>
+
+    <a href="./projects-php/php-oo/index.php">PHP ORIENTED OBJECT PT.1</a>
+    <a href="./projects-php/php-oo-2/index.php">PHP ORIENTED OBJECT PT.2</a>
+    <!-- <a href="./projects-php/php-search/index.php">PHP SEARCH ENGINE (UNDER CONSTRUCTION)</a> -->
 
     </center>
     <hr>
