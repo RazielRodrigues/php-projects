@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+    colors="true"
+    processIsolation="false"
+    stopOnFailure="false"
+    syntaxCheck="false"
+    >
+    <php>
+        <ini name="memory_limit" value="-1"/>
+        <ini name="apc.enable_cli" value="1"/>
+    </php>
+
+    <!-- Add any additional test suites you want to run here -->
+    <testsuites>
+        <testsuite name="app">
+            <directory>./tests</directory>
+        </testsuite>
+        <testsuite name="receipt">
+            <directory>./tests</directory>
+            <exclude>./tests/ReceiptItems.php</exclude>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <!--
+        <blacklist>
+            <directory suffix=".php">/path/to/files</directory>
+            <file>/path/to/file</file>
+            <exclude>
+                <directory suffix=".php">/path/to/files</directory>
+                <file>/path/to/file</file>
+            </exclude>
+        </blacklist>
+        -->
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">./src</directory>
+            <!--
+            <file>/path/to/file</file>
+            <exclude>
+                <directory suffix=".php">/path/to/files</directory>
+                <file>/path/to/file</file>
+            </exclude>
+            -->
+        </whitelist>
+    </filter>
+    <!--
+    <logging>
+        <log
+            type="coverage-html"
+            target="./tmp/coverage/html/"
+            charset="UTF-8"
+            highlight="true"
+            lowUpperBound="60"
+            highLowerBound="90"
+        />
+        <log
+            type="coverage-clover"
+            target="./tmp/coverage/clover.xml"
+        />
+    </logging>
+-->
+</phpunit>

@@ -1,0 +1,8 @@
+version: '3'
+services:
+  swoole-app:
+    image: openswoole/swoole:latest-dev
+    ports:
+      - "8081:8081"
+    volumes:
+      - .:/var/www

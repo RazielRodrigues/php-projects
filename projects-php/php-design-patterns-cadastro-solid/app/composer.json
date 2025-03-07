@@ -1,0 +1,14 @@
+{
+    "name": "root/html",
+    "autoload": {
+        "psr-4": {
+            "Bolos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Raziel Rodrigues"
+        }
+    ],
+    "require": {}
+}

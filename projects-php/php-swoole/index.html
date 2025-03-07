@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Swoole Socket Client</title>
+    <style>
+        #messages {
+            display: flex;
+            flex-direction: column;
+            margin: 24px 12px;
+            border: 2px solid black;
+            padding: 8px;
+        }
+
+        .right {
+            margin-left: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Chat</h1>
+    <div id="messages"></div>
+    <form id="form">
+        <label for="message">Mensagem:</label>
+        <input type="text" id="message" name="message">
+        <button>Enviar</button>
+    </form>
+
+    <script>
+        const ws = new WebSocket('ws://localhost:8081');
+        const form = document.querySelector('#form');
+        const message = document.querySelector('#message');
+        const messages = document.querySelector('#messages');
+
+        const addMessage = (value, other = false) => {
+            messages.innerHTML += `<p class="${other ? 'right' : 'left'}"><strong>${other ? 'Outro' : 'Eu'}:</strong> ${value}</p>`;
+        };
+
+        form.addEventListener('submit', (event) => {
+            event.preventDefault();
+
+            const value = message.value;
+
+            if (!value) {
+                return;
+            }
+
+            message.value = '';
+            ws.send(JSON.stringify({
+                message: value,
+            }));
+
+            addMessage(value);
+        });
+
+        ws.onmessage = (event) => {
+            const data = JSON.parse(event.data);
+            addMessage(data.message, true);
+        };
+    </script>
+</body>
+
+</html>
